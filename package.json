@@ -1,107 +1,104 @@
 {
-  "_args": [
-    [
-      "webdriveragent@^1.0.13",
-      "/usr/local/lib/node_modules/macaca-ios/node_modules/xctest-client"
-    ]
-  ],
-  "_from": "webdriveragent@>=1.0.13 <2.0.0",
-  "_id": "webdriveragent@1.0.41",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/macaca-ios/webdriveragent",
-  "_nodeVersion": "6.0.0",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/webdriveragent-1.0.41.tgz_1482148165217_0.9605747361201793"
-  },
-  "_npmUser": {
-    "email": "zic.zhu@gmail.com",
-    "name": "ziczhu"
-  },
-  "_npmVersion": "3.8.6",
-  "_phantomChildren": {},
-  "_requested": {
+    "_args": [
+        [
+            "webdriveragent@^1.0.13",
+            "/usr/local/lib/node_modules/macaca-ios/node_modules/xctest-client"
+        ]
+    ],
+    "_from": "webdriveragent@>=1.0.13 <2.0.0",
+    "_id": "webdriveragent@1.0.41",
+    "_inCache": true,
+    "_installable": true,
+    "_location": "/macaca-ios/webdriveragent",
+    "_nodeVersion": "6.0.0",
+    "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/webdriveragent-1.0.41.tgz_1482148165217_0.9605747361201793"
+    },
+    "_npmUser": {
+        "email": "zic.zhu@gmail.com",
+        "name": "ziczhu"
+    },
+    "_npmVersion": "3.8.6",
+    "_phantomChildren": {},
+    "_requested": {
+        "name": "webdriveragent",
+        "raw": "webdriveragent@^1.0.13",
+        "rawSpec": "^1.0.13",
+        "scope": null,
+        "spec": ">=1.0.13 <2.0.0",
+        "type": "range"
+    },
+    "_requiredBy": [
+        "/macaca-ios/xctest-client"
+    ],
+    "_resolved": "https://registry.npmjs.org/webdriveragent/-/webdriveragent-1.0.41.tgz",
+    "_shasum": "0608cb5587321aa3bf684fc6e70a9345e163a093",
+    "_shrinkwrap": null,
+    "_spec": "webdriveragent@^1.0.13",
+    "_where": "/usr/local/lib/node_modules/macaca-ios/node_modules/xctest-client",
+    "author": {
+        "name": "xudafeng"
+    },
+    "blog": "http://xdf.me",
+    "bugs": {
+        "url": "https://github.com/xudafeng/webdriveragent/issues"
+    },
+    "dependencies": {
+        "adm-zip": "~0.4.7",
+        "xcode": "^0.8.9",
+        "xutil": "^1.0.2"
+    },
+    "description": "webdriveragent",
+    "devDependencies": {
+        "co-mocha": "*",
+        "ios-simulator": "^1.0.7",
+        "istanbul": "*",
+        "jshint": "*",
+        "macaca-utils": "^0.1.8",
+        "mocha": "*",
+        "pre-commit": "1.1.1",
+        "should": "*"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "0608cb5587321aa3bf684fc6e70a9345e163a093",
+        "tarball": "https://registry.npmjs.org/webdriveragent/-/webdriveragent-1.0.41.tgz"
+    },
+    "email": "xudafeng@126.com",
+    "gitHead": "eca8318a6e6b89beeab103b8dfc191b83c7ec9f0",
+    "homepage": "https://github.com/xudafeng/webdriveragent",
+    "keywords": [
+        "webdriveragent"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [{
+            "email": "boom11235.gg@gmail.com",
+            "name": "boom11235"
+        },
+        {
+            "email": "xudafeng@126.com",
+            "name": "xudafeng"
+        },
+        {
+            "email": "zic.zhu@gmail.com",
+            "name": "ziczhu"
+        }
+    ],
     "name": "webdriveragent",
-    "raw": "webdriveragent@^1.0.13",
-    "rawSpec": "^1.0.13",
-    "scope": null,
-    "spec": ">=1.0.13 <2.0.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "/macaca-ios/xctest-client"
-  ],
-  "_resolved": "https://registry.npmjs.org/webdriveragent/-/webdriveragent-1.0.41.tgz",
-  "_shasum": "0608cb5587321aa3bf684fc6e70a9345e163a093",
-  "_shrinkwrap": null,
-  "_spec": "webdriveragent@^1.0.13",
-  "_where": "/usr/local/lib/node_modules/macaca-ios/node_modules/xctest-client",
-  "author": {
-    "name": "xudafeng"
-  },
-  "blog": "http://xdf.me",
-  "bugs": {
-    "url": "https://github.com/xudafeng/webdriveragent/issues"
-  },
-  "dependencies": {
-    "adm-zip": "~0.4.7",
-    "xcode": "^0.8.9",
-    "xutil": "^1.0.2"
-  },
-  "description": "webdriveragent",
-  "devDependencies": {
-    "co-mocha": "*",
-    "ios-simulator": "^1.0.7",
-    "istanbul": "*",
-    "jshint": "*",
-    "macaca-utils": "^0.1.8",
-    "mocha": "*",
-    "pre-commit": "1.1.1",
-    "should": "*"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "0608cb5587321aa3bf684fc6e70a9345e163a093",
-    "tarball": "https://registry.npmjs.org/webdriveragent/-/webdriveragent-1.0.41.tgz"
-  },
-  "email": "xudafeng@126.com",
-  "gitHead": "eca8318a6e6b89beeab103b8dfc191b83c7ec9f0",
-  "homepage": "https://github.com/xudafeng/webdriveragent",
-  "keywords": [
-    "webdriveragent"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "email": "boom11235.gg@gmail.com",
-      "name": "boom11235"
+    "optionalDependencies": {},
+
+    "readme": "ERROR: No README data found!",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/xudafeng/webdriveragent.git"
     },
-    {
-      "email": "xudafeng@126.com",
-      "name": "xudafeng"
+    "scripts": {
+        "install": "node ./scripts/install.js",
+
+        "prepublishOnly": "make zip",
+        "test": "make test"
     },
-    {
-      "email": "zic.zhu@gmail.com",
-      "name": "ziczhu"
-    }
-  ],
-  "name": "webdriveragent",
-  "optionalDependencies": {},
-  "pre-commit": [
-    "jshint"
-  ],
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/xudafeng/webdriveragent.git"
-  },
-  "scripts": {
-    "install": "node ./scripts/install.js",
-    "jshint": "make jshint",
-    "prepublishOnly": "make zip",
-    "test": "make test"
-  },
-  "version": "1.0.41"
+    "version": "1.0.41"
 }
